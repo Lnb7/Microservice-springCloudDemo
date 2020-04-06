@@ -6,3 +6,9 @@ Eureka – service registration and discovery,
 Zuul Gateway–  gateway service that provides dynamic routing, monitoring, resiliency, security, and more
 Sleuth – distributed tracing via logs,
 Zipkin – distributed tracing system with request visualization.
+
+
+
+Zipkin Setup:
+SET RABBIT_URI=amqp://localhost
+java -jar zipkin-server.jar
